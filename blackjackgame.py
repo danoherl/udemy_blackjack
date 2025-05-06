@@ -88,7 +88,6 @@ def play_game(player,dealer,new_deck):
     
 
 if __name__ == "__main__":
-    player, dealer, new_deck = initialise()
-    play_game(player,dealer,new_deck)
+    play_game(initialise())
     
 
